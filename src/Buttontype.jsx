@@ -7,7 +7,7 @@ export default class Buttontype extends Component {
     }
     render() {
         return (
-            <div id="container" style={{ width: this.props.CharSend.width, height: this.props.CharSend.height, display:"flex" ,justifyContent:"center",alignItems:"center", fontWeight:"bolder"}}>
+            <div id="container" style={{ width: this.props.CharSend.width, height: this.props.CharSend.height, display:"flex" ,justifyContent:"center",alignItems:"center", fontWeight:"bolder", textAlign:"center"}}>
                 {this.props.CharSend.keyName != ""
                     ? <img id={this.props.CharSend.id}  src={require("./imges/" + this.props.CharSend.keyName + ".png")} />
                     : <span id={this.props.CharSend.id}>{this.props.CharSend.word}</span>}

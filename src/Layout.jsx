@@ -7,7 +7,7 @@ export default function Layout() {
     return (
         <>
             <div id="keylayout">
-                <div style={{display:"inline-block"}}>
+                <div>
                     <Buttontype CharSend={{ 'keyName': '_`', 'width': '60px', 'height': '60px', 'word': 'Backtick', 'id': 'backtick' }} />
                     <Buttontype CharSend={{ 'keyName': '_1', 'width': '60px', 'height': '60px', 'word': '1', 'id': 'one' }} />
                     <Buttontype CharSend={{ 'keyName': '_2', 'width': '60px', 'height': '60px', 'word': '2', 'id': 'two' }} />
@@ -29,7 +29,7 @@ export default function Layout() {
                     <Buttontype CharSend={{ 'keyName': '',   'width': '60px', 'height': '60px', 'word': '*', 'id': 'asterish' }} />
                     <Buttontype CharSend={{ 'keyName': '',   'width': '60px', 'height': '60px', 'word': '-', 'id': 'miuns' }} />
                 </div>
-                <div style={{display:"inline-block"}}>
+                <div>
                     <Buttontype CharSend={{ 'keyName': '', 'width': '90px', 'height': '60px', 'word': 'tab', 'id': 'tab' }} />
                     <Buttontype CharSend={{ 'keyName': 'q', 'width': '60px', 'height': '60px', 'word': 'q', 'id': 'q' }} />
                     <Buttontype CharSend={{ 'keyName': 'w', 'width': '60px', 'height': '60px', 'word': 'w', 'id': 'w' }} />
@@ -52,7 +52,7 @@ export default function Layout() {
                     <Buttontype CharSend={{ 'keyName': '',   'width': '60px', 'height': '60px', 'word': '+', 'id': 'plus' }} />
                 </div>
 
-                <div style={{display:"inline-block"}}>
+                <div>
                     <Buttontype CharSend={{ 'keyName': '', 'width': '100px', 'height': '60px', 'word': 'caps lock', 'id': 'capslock' }} />
                     <Buttontype CharSend={{ 'keyName': 'a', 'width': '60px', 'height': '60px', 'word': 'a', 'id': 'a' }} />
                     <Buttontype CharSend={{ 'keyName': 's', 'width': '60px', 'height': '60px', 'word': 's', 'id': 's' }} />
@@ -74,7 +74,7 @@ export default function Layout() {
                     <Buttontype CharSend={{ 'keyName': '',   'width': '60px', 'height': '60px', 'word': '+', 'id': 'plus' }} />
                 </div>
 
-                <div style={{display:"inline-block"}}>
+                <div>
                     <Buttontype CharSend={{ 'keyName': '',  'width': '120px', 'height': '60px', 'word': 'shift', 'id': 'shift' }} />
                     <Buttontype CharSend={{ 'keyName': 'z', 'width': '60px', 'height': '60px', 'word': 'z', 'id': 'z' }} />
                     <Buttontype CharSend={{ 'keyName': 'x', 'width': '60px', 'height': '60px', 'word': 'x', 'id': 'x' }} />
